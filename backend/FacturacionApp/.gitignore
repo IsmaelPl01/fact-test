@@ -1,0 +1,76 @@
+# .gitignore for .NET / C# projects (Visual Studio, VS Code)
+# Generated for .NET 8
+
+# Build outputs
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# VS Code
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+project.lock.json
+project.fragment.lock.json
+
+# Publish artifacts
+publish/
+*.Publish.xml
+*.azurePubxml
+
+# Local user secrets and config
+secrets.json
+secrets.*.json
+appsettings.*.json
+.env
+.env.*
+
+# Logs and databases
+logs/
+*.log
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Test results, coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Generated files
+*.generated.cs
+Generated/
+
+# Packages and tooling
+node_modules/
+bower_components/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignore publish output directories created by dotnet publish
+**/publish/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
