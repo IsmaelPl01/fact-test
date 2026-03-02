@@ -1,4 +1,5 @@
 # FacturEasy - Fullstack Web Application
+<img width="1844" height="1039" alt="image" src="https://github.com/user-attachments/assets/ec447eeb-fb86-46fd-8d3e-b57c8de12af9" />
 
 Bienvenido al monorepo de **FacturEasy**, una aplicación web profesional de gestión de facturas y clientes desarrollada como prueba técnica / proyecto completo.
 
